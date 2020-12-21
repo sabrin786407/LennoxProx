@@ -18,6 +18,7 @@ public class Logic extends BaseClass {
 
 	@Test
 	public void homePage() throws IOException, InterruptedException {
+		
 		getDriver();
 		loadUrl("https://www.liidaveqa.com/");
 		maximizeWindow();
